@@ -40,13 +40,13 @@ const translations = {
       title: "About Us",
       doctor: {
         name: "Dr.Hakim",
-        title: "Principal Dentist",
+        title: "Hakim Shuaaib",
         bio: "With over 15 years of experience, Dr.Hakim specializes in cosmetic and family dentistry. He is dedicated to gentle, personalized care and creating beautiful smiles."
       },
       nurse: {
-        name: "Nurse Amina",
+        name: "Nurse Džejna",
         title: "Dental Nurse",
-        bio: "Nurse Amina brings warmth and professionalism to every visit. She ensures patient comfort and assists in all dental procedures with care and expertise."
+        bio: "Nurse Džejna brings warmth and professionalism to every visit. She ensures patient comfort and assists in all dental procedures with care and expertise."
       },
       features: [
         "Modern, comfortable office",
@@ -57,9 +57,9 @@ const translations = {
     },
     contact: {
       title: "Contact Us",
-      phone: "(123) 456-7890",
-      email: "info@drhakimdental.com",
-      address: "123 Smile Ave, New York, NY, USA",
+      phone: "061/353-451",
+      email: "hakim.shuaaib@gmail.com",
+      address: "Hifzi Bjelevca 118, Sarajevo 71000",
       hours: "Mon-Fri 9:00 AM - 5:00 PM",
       saturday: "First Saturday each month: 9:00 AM - 2:00 PM",
       mapNote: "Find us on Google Maps"
@@ -87,13 +87,13 @@ const translations = {
       title: "O nama",
       doctor: {
         name: "Dr.Hakim",
-        title: "Glavni stomatolog",
+        title: "Hakim Shuaaib",
         bio: "Sa više od 15 godina iskustva, dr.Hakim je specijaliziran za estetsku i porodičnu stomatologiju. Posvećen je nježnoj, personaliziranoj njezi i stvaranju lijepih osmijeha."
       },
       nurse: {
-        name: "Sestra Amina",
+        name: "Sestra Džejna",
         title: "Stomatološka sestra",
-        bio: "Sestra Amina donosi toplinu i profesionalnost svakom posjetu. Brine o udobnosti pacijenata i pomaže u svim stomatološkim zahvatima s pažnjom i stručnošću."
+        bio: "Sestra Džejna donosi toplinu i profesionalnost svakom posjetu. Brine o udobnosti pacijenata i pomaže u svim stomatološkim zahvatima s pažnjom i stručnošću."
       },
       features: [
         "Moderna, udobna ordinacija",
@@ -104,9 +104,9 @@ const translations = {
     },
     contact: {
       title: "Kontaktirajte nas",
-      phone: "(123) 456-7890",
-      email: "info@drhakimdental.com",
-      address: "Hifzi Bjelevca 118, Sarajevo, BiH",
+      phone: "061/353-451",
+      email: "hakim.shuaaib@gmail.com",
+      address: "Hifzi Bjelevca 118, Sarajevo 71000",
       hours: "Pon-Pet 9:00 - 17:00",
       saturday: "Prva subota u mjesecu: 9:00 - 14:00",
       mapNote: "Pronađite nas na Google mapi"
@@ -134,13 +134,13 @@ const translations = {
       title: "من نحن",
       doctor: {
         name: "د. حكيم",
-        title: "طبيب أسنان رئيسي",
+        title: "حكيم شعيب",
         bio: "يتمتع د. حكيم بخبرة تزيد عن 15 عامًا في طب الأسنان التجميلي والعائلي. يكرس وقته للرعاية اللطيفة والشخصية وخلق ابتسامات جميلة."
       },
       nurse: {
-        name: "الممرضة أمينة",
+        name: "الممرضة جينا",
         title: "ممرضة أسنان",
-        bio: "تجلب الممرضة أمينة الدفء والاحترافية في كل زيارة. تضمن راحة المرضى وتساعد في جميع الإجراءات بعناية وخبرة."
+        bio: "تجلب الممرضة جينا الدفء والاحترافية في كل زيارة. تضمن راحة المرضى وتساعد في جميع الإجراءات بعناية وخبرة."
       },
       features: [
         "عيادة حديثة ومريحة",
@@ -151,9 +151,9 @@ const translations = {
     },
     contact: {
       title: "اتصل بنا",
-      phone: "(123) 456-7890",
-      email: "info@drhakimdental.com",
-      address: "118 حفزي بيليفيتشا، سراييفو، البوسنة والهرسك",
+      phone: "061/353-451",
+      email: "hakim.shuaaib@gmail.com",
+      address: "Hifzi Bjelevca 118, Sarajevo 71000",
       hours: "الإثنين-الجمعة 9:00 ص - 5:00 م",
       saturday: "أول سبت من كل شهر: 9:00 ص - 2:00 م",
       mapNote: "اعثر علينا على خرائط جوجل"
@@ -380,7 +380,7 @@ export default function DentistSPA() {
             {/* Nurse Card - Below, less prominent */}
             <div className="flex flex-col items-center w-full max-w-[180px] sm:max-w-xs mx-auto opacity-90">
               <div className="flex flex-col items-center bg-white rounded-xl shadow p-2 sm:p-4 border w-full" style={{borderColor: accentLight}}>
-                <img src="/staff/nurse.jpg" alt="Nurse Amina" className="w-14 h-14 sm:w-20 sm:h-20 rounded-full mb-1 sm:mb-2 shadow object-cover" />
+                <img src="/staff/nurse.jpg" alt="Nurse Džejna" className="w-14 h-14 sm:w-20 sm:h-20 rounded-full mb-1 sm:mb-2 shadow object-cover" />
                 <h3 className="text-base sm:text-lg font-semibold mb-1" style={{color: accentDark}}>{translations[language].about.nurse.name}</h3>
                 <p className="text-[10px] sm:text-xs mb-1" style={{color: textSecondary}}>{translations[language].about.nurse.title}</p>
                 <p className="text-xs sm:text-sm" style={{color: textPrimary}}>
@@ -404,21 +404,30 @@ export default function DentistSPA() {
             <div className="absolute -bottom-8 sm:-bottom-10 -left-8 sm:-left-10 w-24 h-24 sm:w-40 sm:h-40 z-0" style={{background: accentDark, opacity: 0.08, borderRadius: '9999px', filter: 'blur(16px)'}}></div>
             <h2 className="text-xl sm:text-3xl font-extrabold tracking-tight mb-2 z-10" style={{color: accentDark, letterSpacing: ".01em"}}>{translations[language].contact.title}</h2>
             <div className="flex flex-col md:flex-row md:justify-center gap-6 sm:gap-10 w-full items-stretch z-10">
-              <div className="flex-1 flex flex-col gap-4 sm:gap-6 items-center md:items-start justify-center">
-                {/* Phone */}
-                <div className="flex items-center gap-2 sm:gap-3 text-sm sm:text-lg w-full max-w-xs mx-auto justify-start md:justify-start pl-6 sm:pl-8">
-                  <svg width="24" height="24" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" style={{stroke: accent}}><path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.13.81.36 1.6.68 2.34a2 2 0 0 1-.45 2.11l-.27.27a16 16 0 0 0 6.29 6.29l.27-.27a2 2 0 0 1 2.11-.45c.74.32 1.53.55 2.34.68A2 2 0 0 1 22 16.92z"/></svg>
-                  <a href="tel:+1234567890" className="font-semibold text-black hover:text-[#48dec8] transition">{translations[language].contact.phone}</a>
-                </div>
+              <div className="flex-1 flex flex-col gap-4 sm:gap-6 items-center md:items-start justify-center"> 
                 {/* Email */}
                 <div className="flex items-center gap-2 sm:gap-3 text-sm sm:text-lg w-full max-w-xs mx-auto justify-start md:justify-start pl-6 sm:pl-8">
                   <svg width="24" height="24" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" style={{stroke: accent}}><rect x="2" y="4" width="20" height="16" rx="4"/><polyline points="22,6 12,13 2,6"/></svg>
                   <a href="mailto:info@drhakimdental.com" className="font-semibold text-black hover:text-[#48dec8] transition">{translations[language].contact.email}</a>
                 </div>
-                {/* Address */}
+                {/* Phone */}
                 <div className="flex items-center gap-2 sm:gap-3 text-sm sm:text-lg w-full max-w-xs mx-auto justify-start md:justify-start pl-6 sm:pl-8">
-                  <svg width="24" height="24" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" style={{stroke: accent}}><path d="M17.657 16.657L13.414 12.414a4 4 0 1 0-1.414 1.414l4.243 4.243a1 1 0 0 0 1.414-1.414z"/><circle cx="11" cy="11" r="8"/></svg>
-                  <span className="font-semibold text-black">{translations[language].contact.address}</span>
+                  <svg width="24" height="24" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0" style={{stroke: accent}}><path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.72 19.72 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.13.81.36 1.6.68 2.34a2 2 0 0 1-.45 2.11l-.27.27a16 16 0 0 0 6.29 6.29l.27-.27a2 2 0 0 1 2.11-.45c.74.32 1.53.55 2.34.68A2 2 0 0 1 22 16.92z"/></svg>
+                  <a href="tel:+1234567890" className="font-semibold text-black hover:text-[#48dec8] transition">{translations[language].contact.phone}</a>
+                </div>
+                {/* Address - ensure same alignment and icon size as Saturday, with city/zip on new line */}
+                <div className="flex items-start gap-2 sm:gap-3 text-sm sm:text-lg w-full max-w-xs mx-auto justify-start md:justify-start pl-6 sm:pl-8">
+                  <svg width="24" height="24" fill="none" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 mt-1" style={{stroke: accent}}><path d="M17.657 16.657L13.414 12.414a4 4 0 1 0-1.414 1.414l4.243 4.243a1 1 0 0 0 1.414-1.414z"/><circle cx="11" cy="11" r="8"/></svg>
+                  <div className="flex flex-col text-left w-full">
+                    {translations[language].contact.address.includes(',') ? (
+                      <>
+                        <span className="font-semibold text-black">{translations[language].contact.address.split(',')[0]},</span>
+                        <span className="font-semibold text-black mt-0.5">{translations[language].contact.address.split(',').slice(1).join(',').trim()}</span>
+                      </>
+                    ) : (
+                      <span className="font-semibold text-black">{translations[language].contact.address}</span>
+                    )}
+                  </div>
                 </div>
                 {/* Hours */}
                 <div className="flex items-center gap-2 sm:gap-3 text-sm sm:text-lg w-full max-w-xs mx-auto justify-start md:justify-start pl-6 sm:pl-8">

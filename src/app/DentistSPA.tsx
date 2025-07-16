@@ -11,8 +11,6 @@ const sections = [
 const accent = "#A0E7E5";         // Light aqua (main accent)
 const accentDark = "#007B8A";     // Teal (strong accent)
 const accentLight = "#FDFDFD";    // Almost white (background)
-const highlight = "#FFF685";      // Soft yellow (highlight)
-const secondary = "#FFC1A1";      // Peach (secondary accent)
 const textPrimary = "#333843";    // Deep blue-gray (main text)
 const textSecondary = "#007B8A";  // Teal (secondary text)
 
@@ -39,12 +37,12 @@ const translations = {
     about: {
       title: "About Us",
       doctor: {
-        name: "Dr.Hakim",
-        title: "Hakim Shuaaib",
+        name: "Dr.Hakim Shuaaib",
+        title: "Doctor of Dental Medicine",
         bio: "With over 15 years of experience, Dr.Hakim specializes in cosmetic and family dentistry. He is dedicated to gentle, personalized care and creating beautiful smiles."
       },
       nurse: {
-        name: "Nurse Džejna",
+        name: "Batak Džejna",
         title: "Dental Nurse",
         bio: "Nurse Džejna brings warmth and professionalism to every visit. She ensures patient comfort and assists in all dental procedures with care and expertise."
       },
@@ -57,7 +55,7 @@ const translations = {
     },
     contact: {
       title: "Contact Us",
-      phone: "061/353-451",
+      phone: "+387 61/353-451",
       email: "hakim.shuaaib@gmail.com",
       address: "Hifzi Bjelevca 118, Sarajevo 71000",
       hours: "Mon-Fri 9:00 AM - 5:00 PM",
@@ -86,12 +84,12 @@ const translations = {
     about: {
       title: "O nama",
       doctor: {
-        name: "Dr.Hakim",
-        title: "Hakim Shuaaib",
-        bio: "Sa više od 15 godina iskustva, dr.Hakim je specijaliziran za estetsku i porodičnu stomatologiju. Posvećen je nježnoj, personaliziranoj njezi i stvaranju lijepih osmijeha."
+        name: "Dr.Hakim Shuaaib",
+        title: "Doktor Stomatologije",
+        bio: "Sa više od 15 godina iskustva, Dr.Hakim je specijaliziran za estetsku i porodičnu stomatologiju. Posvećen je nježnoj, personaliziranoj njezi i stvaranju lijepih osmijeha."
       },
       nurse: {
-        name: "Sestra Džejna",
+        name: "Batak Džejna",
         title: "Stomatološka sestra",
         bio: "Sestra Džejna donosi toplinu i profesionalnost svakom posjetu. Brine o udobnosti pacijenata i pomaže u svim stomatološkim zahvatima s pažnjom i stručnošću."
       },
@@ -104,7 +102,7 @@ const translations = {
     },
     contact: {
       title: "Kontaktirajte nas",
-      phone: "061/353-451",
+      phone: "+387 61/353-451",
       email: "hakim.shuaaib@gmail.com",
       address: "Hifzi Bjelevca 118, Sarajevo 71000",
       hours: "Pon-Pet 9:00 - 17:00",
@@ -117,24 +115,24 @@ const translations = {
     welcome: "مرحبًا بكم في عيادة د. حكيم لطب الأسنان",
     welcomeText: "راحتكم وصحتكم وثقتكم هي أولويتنا. عيادتنا الحديثة والودية مكرسة للعناية اللطيفة والخبيرة لجميع الأعمار.",
     clinic: "عيادتنا",
-    clinicText: "اكتشف بيئة هادئة وعالية التقنية مصممة لراحتك. عيادتنا تجمع بين الراحة والنظافة وأحدث تقنيات طب الأسنان.",
+    clinicText: "اكتشف بيئة هادئة وعالية التقنية مصممة لراحتك. عيادتنا تجمع بين الراحة والنظافة وأحدث تقنيات طب الأسنان",
     why: "لماذا تختارنا؟",
     whyList: [
       "طب أسنان رقمي متطور",
       "نهج لطيف يركز على المريض",
       "أسعار شفافة وجدولة مرنة",
-      "طاقم متعدد اللغات وودود"
+      "طاقم متعدد اللغات و ودود"
     ],
-    whyText: "راحتك ورضاك هما أولويتنا. اكتشف عصرًا جديدًا من رعاية الأسنان—مستقبليًا، متعاطفًا، واحترافيًا دائمًا.",
+    whyText: "راحتك ورضاك هما أولويتنا. اكتشف عصرًا جديدًا من رعاية الأسنان",
     work: "تحولات الابتسامة",
-    workText: "شاهد نتائج حقيقية لمرضانا—ثقة متجددة، ابتسامات أكثر إشراقًا، وصحة فموية محسنة. نحن فخورون بمساعدتك في تحقيق ابتسامتك المثالية برعاية وخبرة عالية.",
+    workText: "شاهد نتائج حقيقية لمرضانا—ثقة متجددة، ابتسامات أكثر إشراقًا، وصحة فموية ممتازه. نحن فخورون بمساعدتك في تحقيق ابتسامتك المثالية برعاية وخبرة عالية",
     book: "احجز موعدًا",
     bookMsg: "نتطلع للترحيب بكم في عيادة د. حكيم لطب الأسنان!",
     about: {
       title: "من نحن",
       doctor: {
-        name: "د. حكيم",
-        title: "حكيم شعيب",
+        name: "د.عبد الحكيم الشعيب",
+        title: "دكتور في طب الأسنان",
         bio: "يتمتع د. حكيم بخبرة تزيد عن 15 عامًا في طب الأسنان التجميلي والعائلي. يكرس وقته للرعاية اللطيفة والشخصية وخلق ابتسامات جميلة."
       },
       nurse: {
@@ -151,7 +149,7 @@ const translations = {
     },
     contact: {
       title: "اتصل بنا",
-      phone: "061/353-451",
+      phone: "+387 61/353-451",
       email: "hakim.shuaaib@gmail.com",
       address: "Hifzi Bjelevca 118, Sarajevo 71000",
       hours: "الإثنين-الجمعة 9:00 ص - 5:00 م",
@@ -345,6 +343,8 @@ export default function DentistSPA() {
                 '/images/img1.png',
                 '/images/img2.png',
                 '/images/img3.png',
+                '/images/img4.png',
+                '/images/img5.png',
               ]} altText="Smile transformation" />
               <p className="max-w-xl text-sm sm:text-base mt-2" style={{color: textPrimary}}>
                 {translations[language].workText}
@@ -369,7 +369,7 @@ export default function DentistSPA() {
             {/* Doctor Card - Centered and prominent */}
             <div className="flex flex-col items-center w-full max-w-xs sm:max-w-md mx-auto mb-4 sm:mb-6">
               <div className="flex flex-col items-center bg-white rounded-xl shadow-lg p-4 sm:p-8 border-2 w-full" style={{borderColor: accentDark, boxShadow: `0 8px 32px 0 ${accentDark}22`}}>
-                <img src="/staff/doctor.jpg" alt="Dr.Hakim" className="w-20 h-20 sm:w-28 sm:h-28 rounded-full mb-3 sm:mb-4 shadow-xl object-cover border-4 border-[#48dec8]" />
+                <img src="/staff/doctor.jpg" alt="Dr.Hakim" className="w-30 h-30 sm:w-38 sm:h-38 rounded-full mb-3 sm:mb-4 shadow-xl object-cover border-4 border-[#48dec8]" />
                 <h3 className="text-lg sm:text-2xl font-bold mb-1" style={{color: accentDark}}>{translations[language].about.doctor.name}</h3>
                 <p className="text-xs sm:text-base mb-1 sm:mb-2 font-medium" style={{color: textSecondary}}>{translations[language].about.doctor.title}</p>
                 <p className="text-xs sm:text-base" style={{color: textPrimary}}>
@@ -378,9 +378,9 @@ export default function DentistSPA() {
               </div>
             </div>
             {/* Nurse Card - Below, less prominent */}
-            <div className="flex flex-col items-center w-full max-w-[180px] sm:max-w-xs mx-auto opacity-90">
-              <div className="flex flex-col items-center bg-white rounded-xl shadow p-2 sm:p-4 border w-full" style={{borderColor: accentLight}}>
-                <img src="/staff/nurse.jpg" alt="Nurse Džejna" className="w-14 h-14 sm:w-20 sm:h-20 rounded-full mb-1 sm:mb-2 shadow object-cover" />
+            <div className="flex flex-col items-center w-full max-w-[280px] sm:max-w-xs mx-auto opacity-90">
+              <div className="flex flex-col items-center bg-white rounded-xl shadow p-2 sm:p-4 border-1 w-full" style={{borderColor: accentDark, boxShadow: `0 8px 32px 0 ${accentDark}22`}}>
+                <img src="/staff/nurse.jpg" alt="Batak Džejna" className="w-22 h-22 sm:w-30 sm:h-30 rounded-full mb-3 sm:mb-4 shadow-xl object-cover border-3 border-[#f5bee6]" />
                 <h3 className="text-base sm:text-lg font-semibold mb-1" style={{color: accentDark}}>{translations[language].about.nurse.name}</h3>
                 <p className="text-[10px] sm:text-xs mb-1" style={{color: textSecondary}}>{translations[language].about.nurse.title}</p>
                 <p className="text-xs sm:text-sm" style={{color: textPrimary}}>
@@ -550,10 +550,10 @@ function Slideshow({ images, altText }: { images: string[]; altText: string }) {
         />
       )}
       {/* Navigation arrows always on top */}
-      <button onClick={prev} aria-label="Previous" className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-[#48dec8]/80 text-[#1a8c7c] rounded-full p-2 shadow-md focus:outline-none focus:ring-2 transition">
+      <button onClick={prev} aria-label="Previous" className="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-[#48dec8]/80 text-[#1a8c7c] rounded-full p-2 shadow-md focus:outline-none focus:ring-2 transition">
         <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
       </button>
-      <button onClick={next} aria-label="Next" className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/90 hover:bg-[#48dec8]/80 text-[#1a8c7c] rounded-full p-2 shadow-md focus:outline-none focus:ring-2 transition">
+      <button onClick={next} aria-label="Next" className="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/70 hover:bg-[#48dec8]/80 text-[#1a8c7c] rounded-full p-2 shadow-md focus:outline-none focus:ring-2 transition">
         <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 6l6 6-6 6"/></svg>
       </button>
       <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1 z-10">
